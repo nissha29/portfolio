@@ -1,4 +1,4 @@
-import { Github, Linkedin, X, Resume, Email } from "@/icons/icons";
+import { Github, Linkedin, X, Resume, Email } from "@/icons/Icons";
 
 export const DATA = {
   name: "Nisha",

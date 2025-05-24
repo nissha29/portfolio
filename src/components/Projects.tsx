@@ -1,8 +1,8 @@
 "use client"
 
 import { RoughNotation } from "react-rough-notation";
-import { DATA } from "@/data/resume";
-import { ArrowUpRight, CheveronRight } from "@/icons/icons";
+import { DATA } from "@/data/Resume";
+import { ArrowUpRight, CheveronRight } from "@/icons/Icons";
 import { useState } from "react";
 import Link from 'next/link'
 

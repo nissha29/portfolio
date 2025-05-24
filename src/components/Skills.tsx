@@ -1,5 +1,5 @@
 import { RoughNotation } from "react-rough-notation";
-import { DATA } from "@/data/resume";
+import { DATA } from "@/data/Resume";
 
 export default function skills() {
     return <div className="pt-8">

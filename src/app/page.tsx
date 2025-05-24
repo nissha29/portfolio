@@ -1,17 +1,16 @@
 "use client"
 
-import Navbar from '@/components/navbar';
-import About from '@/components/about';
-import Experience from '@/components/experience';
-import Education from '@/components/education';
-import Skills from '@/components/skills';
-import Project from '@/components/projects';
-import Contact from '@/components/contact';
+import Navbar from '@/components/Navbar';
+import About from '@/components/About';
+import Experience from '@/components/Experience';
+import Education from '@/components/Education';
+import Skills from '@/components/Skills';
+import Project from '@/components/Projects';
+import Contact from '@/components/Contact';
 import dynamic from 'next/dynamic';
 
 const LiveClock = dynamic(() => import('react-live-clock'), { ssr: false });
 export default function Home() {
-  const date = new Date();
 
   return (
     <div className={`w-full min-h-screen bg-[#222222] text-white overflow-x-hidden`}>

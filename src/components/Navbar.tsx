@@ -1,4 +1,4 @@
-import { DATA } from "@/data/resume"
+import { DATA } from "@/data/Resume"
 import React from "react"
 import Link from 'next/link'
 

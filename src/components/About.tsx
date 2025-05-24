@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import { RoughNotation } from 'react-rough-notation'
-import { DATA } from '@/data/resume'
+import { DATA } from '@/data/Resume'
 
-export default function about() {
+export default function About() {
     return <div>
         <div className="pt-12">
             <div className="flex justify-between">

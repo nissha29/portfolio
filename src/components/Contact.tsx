@@ -1,8 +1,8 @@
 import { RoughNotation } from "react-rough-notation";
 import Link from 'next/link';
-import { DATA } from "@/data/resume";
+import { DATA } from "@/data/Resume";
 
-export default function contact() {
+export default function Contact() {
     return <div className="pt-8">
         <RoughNotation type="underline" show={true} color="#00ffb7" strokeWidth={2}>
             <span className="text-2xl font-bold">Contact</span>
