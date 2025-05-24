@@ -82,11 +82,11 @@ export const DATA = {
       href: "",
       location: "Remote",
       title: "Full Stack Developer Intern",
-      logoUrl: "https://letsziti.com/assets/images/ziti_logo.png",
+      logoUrl: "",
       start: "May 2025",
       end: "Present",
       description:
-        "Spearheaded the development of 3 core modules in a full-stack HRMS Attendance Application, reducing manual HR processes by 40%.",
+        "Spearheaded the development of 3 core modules in a full-stack HRMS Attendance Application, reducing manual HR processes by 40%. Built and optimized RESTful APIs with Node.js and Express, decreasing average response time.",
     },
     
   ],

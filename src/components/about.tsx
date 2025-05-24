@@ -9,7 +9,6 @@ export default function about() {
                 <div className='flex flex-col gap-3'>
                     <div className="text-[#00ffb7] text-4xl sm:text-5xl font-thin flex-wrap">{DATA.name}</div>
                     <div className='text-lg sm:text-xl'>{DATA.description}</div>
-                    <button className='bg-[#00ffb71a] p-2 text-sm sm:text-lg rounded-xl hover:cursor-pointer hover:bg-[#00ffb756] hover:scale-105'>Meet Me via AI</button>
                 </div>
                 <div className="p-2 rounded-full border border-neutral-600" style={{ perspective: '600px' }}>
                     <Image src={DATA.avatarUrl} alt="Nisha" width={200} height={20} className='w-32 h-32 rounded-full' style={{
