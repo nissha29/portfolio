@@ -1,7 +1,7 @@
 import { RoughNotation } from "react-rough-notation";
 import { DATA } from "@/data/Resume";
 
-export default function experience() {
+export default function Experience() {
     return <div className="pt-8">
         <RoughNotation type="underline" show={true} color="#00ffb7" strokeWidth={2}>
             <span className="text-2xl font-bold">Work Experience</span>

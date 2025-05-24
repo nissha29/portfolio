@@ -6,7 +6,7 @@ import { ArrowUpRight, CheveronRight } from "@/icons/Icons";
 import { useState } from "react";
 import Link from 'next/link'
 
-export default function project() {
+export default function Project() {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     return <div className="pt-8">

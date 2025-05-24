@@ -2,7 +2,7 @@ import { DATA } from "@/data/Resume"
 import React from "react"
 import Link from 'next/link'
 
-export default function navbar() {
+export default function Navbar() {
     const social = DATA.contact.social;
     return <div className="flex flex-col-reverse sm:flex-row justify-between items-center">
         <div className="hidden sm:flex text-4xl text-[#00ffb7] bg-[#00ffb71a] rounded-full px-3 py-1">{DATA.initials}</div>
