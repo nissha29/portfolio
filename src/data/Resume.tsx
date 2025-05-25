@@ -25,7 +25,7 @@ export const DATA = {
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express.js", "JWT", "Web Sockets"]
+    items: ["Node.js", "Express.js", "JWT", "Web Sockets", "Next.js"]
   },
   {
     category: "Database",
@@ -46,7 +46,6 @@ export const DATA = {
   ],
   contact: {
     email: "nishakashyap2907@gmail.com",
-    tel: "+918307328690",
     social: {
       GitHub: {
         name: "GitHub",
@@ -134,5 +133,14 @@ export const DATA = {
         "React", "Recoil", "Tailwind CSS", "Express", "MongoDB", "Cloudinary"
       ],
     },
+    {
+      title: "Personal Portfolio",
+      href: "https://nishas-portfolio.vercel.app/",
+      description:
+        "Developed a fully responsive personal portfolio using Next.js and Tailwind CSS. Designed to be mobile-friendly, the portfolio showcases projects, skills, and contact sections with clean UI and smooth user experience.",
+      technologies: [
+        "Next.js", "Tailwind CSS", "Client & Server Components", "SEO Optimization"
+      ]
+    }
   ],
 } as const;
