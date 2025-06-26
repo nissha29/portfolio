@@ -1,4 +1,3 @@
-import { RoughNotation } from "react-rough-notation";
 import Link from 'next/link';
 import { DATA } from "@/data/Resume";
 
