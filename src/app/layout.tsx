@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Underdog } from "next/font/google";
+import { Quattrocento } from "next/font/google";
 import "./globals.css";
 
-const underDog = Underdog({
-  variable: "--font-underdog",
+const quattrocento = Quattrocento({
+  variable: "--font-quattrocento",
   subsets: ["latin"],
   weight: ["400"]
 })
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${underDog.className} antialiased`}
+        className={` ${quattrocento.className} antialiased`}
       >
         {children}
       </body>

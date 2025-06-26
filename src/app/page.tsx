@@ -9,21 +9,21 @@ import LiveClockWrapper from '@/components/LiveClockWrapper';
 
 export const metadata = {
   title: "Nisha | Portfolio",
-  description: "Personal portfolio website built with Next.js, showcasing projects, skills, education, and contact information.",
+  description: "Hi, I’m Nisha—a Full Stack Developer with a passion for building seamless, intuitive applications that make technology accessible and enjoyable.",
   keywords: ["Nisha", "Portfolio", "Next.js Developer", "Frontend Developer", "Projects"],
   authors: [{ name: "Nisha" }],
   openGraph: {
     title: "Nisha | Portfolio",
-    description: "Frontend developer portfolio built with Next.js and Tailwind CSS",
+    description: "Hi, I’m Nisha—a Full Stack Developer with a passion for building seamless, intuitive applications that make technology accessible and enjoyable.",
     type: "website",
     locale: "en_IN",
-    url: "https://nishas-portfolio.vercel.app/",
+    url: "https://nissha.space",
   },
 };
 
 export default function Home() {
   return (
-    <div className="w-full min-h-screen bg-[#222222] text-white overflow-x-hidden">
+    <div className="w-full min-h-screen bg-[#181818] text-white overflow-x-hidden">
       <div className="flex flex-col justify-center items-center sm:p-10 p-5">
         <div className="max-w-96 flex flex-col justify-start sm:max-w-2xl">
           <Navbar />

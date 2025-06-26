@@ -85,7 +85,7 @@ export const DATA = {
       start: "May 2025",
       end: "Present",
       description:
-        "Spearheaded the development of 3 core modules in a full-stack HRMS Attendance Application, reducing manual HR processes by 40%. Built and optimized RESTful APIs with Node.js and Express, decreasing average response time.",
+        "",
     },
     
   ],
