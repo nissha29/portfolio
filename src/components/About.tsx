@@ -11,7 +11,7 @@ export default function About() {
         <div className="flex justify-between">
           <div className="flex flex-col gap-3">
             <div
-              className={`text-neutral-300 text-2xl sm:text-5xl font-extralight flex-wrap ${comfortaa.className}`}
+              className={`text-neutral-300 text-4xl sm:text-5xl font-extralight flex-wrap ${comfortaa.className}`}
             >
               {DATA.name}
             </div>
