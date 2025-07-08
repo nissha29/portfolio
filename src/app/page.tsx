@@ -23,7 +23,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="w-full min-h-screen bg-[#181818] text-white overflow-x-hidden">
+    <div className="w-full min-h-screen bg-neutral-950 text-neutral-200 overflow-x-hidden">
       <div className="flex flex-col justify-center items-center sm:p-10 p-5">
         <div className="max-w-96 flex flex-col justify-start sm:max-w-2xl">
           <Navbar />
@@ -34,7 +34,7 @@ export default function Home() {
           <Project />
           <Contact />
           <div className="border border-t-1 border-neutral-600 h-px w-full mt-10"></div>
-          <div className="flex justify-between mt-3 text-neutral-400 text-sm">
+          <div className="flex justify-between mt-3 text-neutral-200 text-sm">
             <div>Haryana, India</div>
             <div className="flex gap-2 justify-center">
               <LiveClockWrapper />

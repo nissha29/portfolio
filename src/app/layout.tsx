@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Quattrocento } from "next/font/google";
+import { Inconsolata } from "next/font/google";
 import "./globals.css";
 
-const quattrocento = Quattrocento({
+const inconsolata = Inconsolata({
   variable: "--font-quattrocento",
   subsets: ["latin"],
   weight: ["400"]
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${quattrocento.className} antialiased`}
+        className={` ${inconsolata.className} antialiased`}
       >
         {children}
       </body>
