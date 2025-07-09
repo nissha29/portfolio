@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div>
       <div className="pt-16">
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
           <div className="flex flex-col gap-3">
             <div
               className={`text-neutral-300 text-4xl sm:text-5xl font-extralight flex-wrap ${comfortaa.className}`}
