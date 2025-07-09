@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Education() {
   return (
     <div className="pt-8">
-      <span className="text-2xl text-rose-400">Education</span>
+      <span className="text-2xl text-rose-400/80">Education</span>
 
       <div className="pt-2 flex sm:flex-row sm:justify-between sm:items-center flex-col">
         <div className="flex gap-9 justify-start items-center">

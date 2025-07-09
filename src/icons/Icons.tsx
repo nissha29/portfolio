@@ -10,7 +10,7 @@ export function CheveronRight() {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
-      style={{ color: '#FB7185', width: '24px', height: '24px' }}
+      style={{ color: '#FB718599', width: '24px', height: '24px' }}
     >
       <polyline points="9 18 15 12 9 6"></polyline>
     </svg>

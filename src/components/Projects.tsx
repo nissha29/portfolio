@@ -10,7 +10,7 @@ export default function Project() {
 
   return (
     <div className="pt-8">
-      <span className="text-2xl text-rose-400">Projects</span>
+      <span className="text-2xl text-rose-400/80">Projects</span>
 
       <div className="flex flex-col gap-4">
         {DATA.projects.map((item, index) => {
@@ -22,8 +22,16 @@ export default function Project() {
               <div className="flex justify-between sm:hover:scale-105">
                 <div className="flex gap-9 justify-start items-center">
                   <div className="rounded-full border border-rose-400 p-0.5"></div>
-                  <div className="text-xl text-neutral-400 font-semibold">
+                  <div className="flex items-center gap-3 text-xl text-neutral-400 font-semibold">
                     {item.title}
+                    {item.status === "progress" && (
+                      <div className="font-light text-[1rem]">
+                        (in progress)
+                      </div>
+                    )}
+                    {item.status === "progress" && <div className="inline-flex items-center">
+                      <div className=" bg-green-400 rounded-full p-0.5 shadow-[0_0_10px_2px_rgba(163,230,53,0.2)]"></div>
+                    </div>}
                   </div>
                 </div>
                 <Link
@@ -52,7 +60,7 @@ export default function Project() {
                 </div>
               </div>
               {openIndex === index && (
-                <div className="p-3 text-neutral-400 border border-rose-400">
+                <div className="p-3 text-neutral-400 border border-rose-400/30">
                   {item.description}
                 </div>
               )}

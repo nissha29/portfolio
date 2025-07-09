@@ -3,7 +3,7 @@ import { DATA } from "@/data/Resume";
 export default function Skills() {
   return (
     <div className="pt-8">
-      <span className="text-2xl text-rose-400 font-extralight">Skills</span>
+      <span className="text-2xl text-rose-400/80 font-extralight">Skills</span>
 
       <div className="pt-2 flex flex-col gap-y-2">
         {DATA.skills.map((item, index) => {

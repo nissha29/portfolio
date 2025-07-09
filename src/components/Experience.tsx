@@ -3,7 +3,7 @@ import { DATA } from "@/data/Resume";
 export default function Experience() {
   return (
     <div className="pt-8">
-      <span className="text-2xl text-rose-400">Work Experience</span>
+      <span className="text-2xl text-rose-400/80">Work Experience</span>
 
       <div className="pt-2 flex sm:flex-row sm:justify-between sm:items-center flex-col">
         <div className="flex gap-9 justify-start items-center">

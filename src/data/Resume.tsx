@@ -101,20 +101,24 @@ export const DATA = {
     {
       title: "Doodle Space",
       href: "https://github.com/nissha29/doodle-space",
+      status: 'progress',
       description:
         "A collaborative infinite canvas application for visual thinking and creative expression. Features real-time drawing tools, shape creation, text editing, and seamless zoom/pan navigation across an unlimited workspace.",
       technologies: [
         "Next.js",
+        "Rough.js",
         "Turborepo",
         "Prisma",
         "Websockets",
         "Express.js",
         "Typescript",
+        "Zustand"
       ],
     },
     {
       title: "Brain Cache",
       href: "https://brain-cache-extends.vercel.app/",
+      status: 'comeleted',
       description:
         "Brain Cache is a powerful knowledge management platform that helps you store, organize, and retrieve important information effectively. It leverages advanced AI and vector database technologies to transform how you interact with your collected knowledge.",
       technologies: [
@@ -130,6 +134,7 @@ export const DATA = {
     {
       title: "Instant Chat",
       href: "https://instant-convo.vercel.app/",
+      status: 'comeleted',
       description:
         "A lightweight, real-time chat application that allows users to create temporary chat rooms and communicate instantly without registration.",
       technologies: ["Websockets", "Redis", "Typescript", "Node.js", "React"],
@@ -137,6 +142,7 @@ export const DATA = {
     {
       title: "Melodia",
       href: "https://melodia-music.netlify.app/",
+      status: 'comeleted',
       description:
         "This is a simple music streaming application that allows users to explore, browse, and listen to various tracks, providing an intuitive and smooth user experience for music lovers.",
       technologies: [
@@ -151,6 +157,7 @@ export const DATA = {
     {
       title: "Personal Portfolio",
       href: "https://nishas-portfolio.vercel.app/",
+      status: 'comeleted',
       description:
         "Developed a fully responsive personal portfolio using Next.js and Tailwind CSS. Designed to be mobile-friendly, the portfolio showcases projects, skills, and contact sections with clean UI and smooth user experience.",
       technologies: [
