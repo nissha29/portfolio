@@ -17,7 +17,7 @@ export const DATA = {
     },
     {
       category: "Frontend",
-      items: ["React.js", "Next.js", "TailwindCSS", "Recoil"],
+      items: ["React.js", "Next.js", "TailwindCSS", "Recoil", "Zustand"],
     },
     {
       category: "Backend",
@@ -33,7 +33,7 @@ export const DATA = {
     },
     {
       category: "Relevant Coursework",
-      items: ["Data Structures", "Algorithms", "OOPS"],
+      items: ["Data Structures and Algorithms", "OOPS"],
     },
   ],
 
@@ -99,11 +99,27 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Doodle Space",
-      href: "https://github.com/nissha29/doodle-space",
+      title: "PixEdit",
+      href: "https://github.com/nissha29/PixEdit",
       status: 'progress',
       description:
-        "A collaborative infinite canvas application for visual thinking and creative expression. Features real-time drawing tools, shape creation, text editing, and seamless zoom/pan navigation across an unlimited workspace.",
+        "An intuitive image editor designed for seamless photo enhancement and editing. It allows users to remove or change backgrounds, crop and resize images, apply a range of filters, add customizable text, blur specific parts of photos to mask sensitive details, and draw freely over images. Built-in undo and redo functionality streamline the editing workflow. Users can export their creations in popular formats including JPG, JPEG, PNG, and WEBP, making it versatile for diverse sharing and publishing needs.",
+      technologies: [
+        "Next.js",
+        "Tailwind CSS",
+        "Prisma",
+        "Typescript",
+        "Zustand",
+        "Next-Auth",
+
+      ],
+    },
+    {
+      title: "Doodle Space",
+      href: "https://www.doodlespace.xyz",
+      status: 'completed',
+      description:
+        "A collaborative infinite canvas application for visual thinking and creative expression. Features real-time drawing tools, shape creation, text editing, and seamless pan navigation across an unlimited workspace.",
       technologies: [
         "Next.js",
         "Rough.js",

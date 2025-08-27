@@ -37,7 +37,7 @@ export default function About() {
         <div className="pt-2 text-neutral-400/80">
           <div>
             hyyyyyy I’m
-            <span className="text-white/85"> Nisha — a 20yo Developer</span> from Haryana with a
+            <span className="text-white/85"> Nisha — a 21yo Developer</span> from Haryana with a
             passion for building seamless, intuitive applications that make
             technology accessible and enjoyable.
             <div className="pt-3">
