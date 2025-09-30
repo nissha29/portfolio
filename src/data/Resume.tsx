@@ -101,7 +101,7 @@ export const DATA = {
     {
       title: "PixEdit",
       href: "https://github.com/nissha29/PixEdit",
-      status: 'progress',
+      status: 'completed',
       description:
         "An intuitive image editor designed for seamless photo enhancement and editing. It allows users to remove or change backgrounds, crop and resize images, apply a range of filters, add customizable text, blur specific parts of photos to mask sensitive details, and draw freely over images. Built-in undo and redo functionality streamline the editing workflow. Users can export their creations in popular formats including JPG, JPEG, PNG, and WEBP, making it versatile for diverse sharing and publishing needs.",
       technologies: [
@@ -134,7 +134,7 @@ export const DATA = {
     {
       title: "Brain Cache",
       href: "https://brain-cache-extends.vercel.app/",
-      status: 'comeleted',
+      status: 'completed',
       description:
         "Brain Cache is a powerful knowledge management platform that helps you store, organize, and retrieve important information effectively. It leverages advanced AI and vector database technologies to transform how you interact with your collected knowledge.",
       technologies: [
@@ -150,7 +150,7 @@ export const DATA = {
     {
       title: "Instant Chat",
       href: "https://instant-convo.vercel.app/",
-      status: 'comeleted',
+      status: 'completed',
       description:
         "A lightweight, real-time chat application that allows users to create temporary chat rooms and communicate instantly without registration.",
       technologies: ["Websockets", "Redis", "Typescript", "Node.js", "React"],
@@ -158,7 +158,7 @@ export const DATA = {
     {
       title: "Melodia",
       href: "https://melodia-music.netlify.app/",
-      status: 'comeleted',
+      status: 'completed',
       description:
         "This is a simple music streaming application that allows users to explore, browse, and listen to various tracks, providing an intuitive and smooth user experience for music lovers.",
       technologies: [
@@ -173,7 +173,7 @@ export const DATA = {
     {
       title: "Personal Portfolio",
       href: "https://nishas-portfolio.vercel.app/",
-      status: 'comeleted',
+      status: 'completed',
       description:
         "Developed a fully responsive personal portfolio using Next.js and Tailwind CSS. Designed to be mobile-friendly, the portfolio showcases projects, skills, and contact sections with clean UI and smooth user experience.",
       technologies: [

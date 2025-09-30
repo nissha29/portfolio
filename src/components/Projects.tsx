@@ -24,14 +24,14 @@ export default function Project() {
                   <div className="rounded-full border border-rose-400 p-0.5"></div>
                   <div className="flex items-center gap-3 text-xl text-neutral-400 font-semibold">
                     {item.title}
-                    {item.status === "progress" && (
+                    {/* {item.status === "progress" && (
                       <div className="font-light text-[1rem]">
                         (in progress)
                       </div>
                     )}
                     {item.status === "progress" && <div className="inline-flex items-center">
                       <div className=" bg-green-400 rounded-full p-0.5 shadow-[0_0_10px_2px_rgba(163,230,53,0.2)]"></div>
-                    </div>}
+                    </div>} */}
                   </div>
                 </div>
                 <Link
