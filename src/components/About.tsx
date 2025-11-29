@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Comfortaa } from "next/font/google";
 import { DATA } from "@/data/Resume";
+import GlitchText from "./ui/GlitchText";
 
 const comfortaa = Comfortaa({ subsets: ["latin"], weight: "300" });
 
@@ -13,7 +14,7 @@ export default function About() {
             <div
               className={`text-neutral-300 text-4xl sm:text-5xl font-extralight flex-wrap ${comfortaa.className}`}
             >
-              {DATA.name}
+              <GlitchText text={DATA.name} />
             </div>
             <div className="text-lg sm:text-xl text-rose-400/80">
               {DATA.description}
@@ -41,13 +42,12 @@ export default function About() {
             passion for building seamless, intuitive applications that make
             technology accessible and enjoyable.
             <div className="pt-3">
-              I started my dev journey back in mid of 2024 (<span className="text-white/85">bit late •︵•</span>). Since then, im
+              I started my dev journey back in mid of 2024. Since then, im
               <span className="text-white/85">
                 {" "}
                 exploring the tech
               </span> continuously. Before that, i was preparing for some government exams <span className="text-white">^_^</span>. This
               field got me <span className="text-white/85">ツ</span>. Always eager to <span className="text-white/85">build, learn, and innovate!</span> Currently <span className="text-white/80">available</span> for new opportunities and excited to collaborate.
-              <div className="pt-3">In my free time, i generally prefers to sleep <span className="text-white/85">ᶻ 𝗓 𐰁.....</span></div>
             </div>
           </div>
         </div>

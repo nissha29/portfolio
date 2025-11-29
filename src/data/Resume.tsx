@@ -1,4 +1,28 @@
+
 import { Github, Linkedin, X, Resume, Email } from "@/icons/Icons";
+import {
+  SiJavascript,
+  SiTypescript,
+  SiCplusplus,
+  SiMysql,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiNodedotjs,
+  SiExpress,
+  SiJsonwebtokens,
+  SiSocketdotio,
+  SiPostgresql,
+  SiPrisma,
+  SiMongodb,
+  SiGit,
+  SiGithub,
+  SiAmazon,
+  SiLinux,
+  SiDrizzle,
+  SiShadcnui
+} from "react-icons/si";
+import { LuCode, LuCpu, LuGlobe } from "react-icons/lu";
 
 export const DATA = {
   name: "Nisha",
@@ -7,33 +31,64 @@ export const DATA = {
   location: "Ambala, Haryana, India",
   locationLink: "",
   description: "Full Stack Developer",
-  summary: "",
+  summary: "I'm Nisha, a 21-year-old Full Stack Developer from Haryana, India. I started my coding journey in mid-2024, pivoting from government exam preparation to the exciting world of technology. I'm passionate about building seamless, intuitive applications and constantly exploring new tech. I'm always eager to build, learn, and innovate!",
   avatarUrl: "/image.png",
 
   skills: [
     {
       category: "Languages",
-      items: ["Javascript/Typescript", "C++", "MySQL"],
+      items: [
+        { name: "Javascript", icon: SiJavascript, color: "#F7DF1E" },
+        { name: "Typescript", icon: SiTypescript, color: "#3178C6" },
+        { name: "C++", icon: SiCplusplus, color: "#00599C" },
+        { name: "MySQL", icon: SiMysql, color: "#4479A1" }
+      ],
     },
     {
       category: "Frontend",
-      items: ["React.js", "Next.js", "TailwindCSS", "Recoil", "Zustand"],
+      items: [
+        { name: "React.js", icon: SiReact, color: "#61DAFB" },
+        { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
+        { name: "TailwindCSS", icon: SiTailwindcss, color: "#06B6D4" },
+        { name: "Shadcn UI", icon: SiShadcnui, color: "#ecececff" },
+        { name: "Recoil", icon: LuGlobe, color: "#3578E5" },
+        { name: "Zustand", icon: LuGlobe, color: "#443E38" },
+      ],
     },
     {
       category: "Backend",
-      items: ["Node.js", "Express.js", "JWT", "Web Sockets", "Next.js"],
+      items: [
+        { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
+        { name: "Express.js", icon: SiExpress, color: "#ffffff" },
+        { name: "JWT", icon: SiJsonwebtokens, color: "#D63AFF" },
+        { name: "Web Sockets", icon: SiSocketdotio, color: "#ffffff" },
+        { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
+      ],
     },
     {
       category: "Database",
-      items: ["Postgres", "Prisma", "MongoDB", "PineconeDB"],
+      items: [
+        { name: "Postgres", icon: SiPostgresql, color: "#336791" },
+        { name: "Prisma", icon: SiPrisma, color: "#2D3748" },
+        { name: "Drizzle", icon: SiDrizzle, color: "#c8ff00ff" },
+        { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+      ],
     },
     {
       category: "Tools",
-      items: ["Git", "Github", "AWS", "Linux"],
+      items: [
+        { name: "Git", icon: SiGit, color: "#F05032" },
+        { name: "Github", icon: SiGithub, color: "#ffffff" },
+        { name: "AWS", icon: SiAmazon, color: "#FF9900" },
+        { name: "Linux", icon: SiLinux, color: "#FCC624" },
+      ],
     },
     {
       category: "Relevant Coursework",
-      items: ["Data Structures and Algorithms", "OOPS"],
+      items: [
+        { name: "Data Structures and Algorithms", icon: LuCode, color: "#ffffff" },
+        { name: "OOPS", icon: LuCpu, color: "#ffffff" },
+      ],
     },
   ],
 
@@ -63,7 +118,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1AErNovM-oB3tG-o_ti6B8FAIsanvGjVn/view?usp=drive_link",
+        url: "https://drive.google.com/file/d/1l3mbS2zssn4OsQbSIA3DF-DQL2-K8YU4/view?usp=sharing",
         icon: Resume,
       },
     },
@@ -71,14 +126,24 @@ export const DATA = {
 
   work: [
     {
-      company: "Ezwiiz Frontier Systems",
+      company: "Independent Contract",
       href: "",
       location: "Remote",
+      title: "Full Stack Developer (Contract)",
+      logoUrl: "",
+      start: "July 2025",
+      end: "Present",
+      description: "As a Full Stack Developer, developed 3+ end-to-end client solutions with Next.js, React, Express, and PostgreSQL ensuring every feature aligned with real business needs. Handled UI, backend APIs, and databases to deliver polished and reliable solutions.",
+    },
+    {
+      company: "Ezwiiz Frontier Systems",
+      href: "",
+      location: "Hyderabad, Remote",
       title: "Full Stack Developer Intern",
       logoUrl: "",
       start: "May 2025",
-      end: "June 2025",
-      description: "",
+      end: "July 2025",
+      description: "Aa an intern at EFS, built core modules for an HRMS Attendance System, lowering manual HR work by 40%. Delivered geolocation-driven auto-attendance and improved backend APIs for better and faster responses.",
     },
   ],
   education: [
@@ -115,6 +180,28 @@ export const DATA = {
       ],
     },
     {
+      title: "Instant Chat",
+      href: "https://instant-convo.vercel.app/",
+      status: 'completed',
+      description:
+        "A lightweight, real-time chat application that allows users to create temporary chat rooms and communicate instantly without registration.",
+      technologies: ["Websockets", "Redis", "Typescript", "Node.js", "React"],
+    },
+    {
+      title: "Personal Portfolio",
+      href: "https://nishas-portfolio.vercel.app/",
+      status: 'completed',
+      description:
+        "Developed a fully responsive personal portfolio using Next.js and Tailwind CSS. Designed to be mobile-friendly, the portfolio showcases projects, skills, and contact sections with clean UI and smooth user experience.",
+      technologies: [
+        "Next.js",
+        "Tailwind CSS",
+        "Client & Server Components",
+        "SEO Optimization",
+      ],
+    },
+
+    {
       title: "Doodle Space",
       href: "https://www.doodlespace.xyz",
       status: 'completed',
@@ -148,14 +235,6 @@ export const DATA = {
       ],
     },
     {
-      title: "Instant Chat",
-      href: "https://instant-convo.vercel.app/",
-      status: 'completed',
-      description:
-        "A lightweight, real-time chat application that allows users to create temporary chat rooms and communicate instantly without registration.",
-      technologies: ["Websockets", "Redis", "Typescript", "Node.js", "React"],
-    },
-    {
       title: "Melodia",
       href: "https://melodia-music.netlify.app/",
       status: 'completed',
@@ -168,19 +247,6 @@ export const DATA = {
         "Express",
         "MongoDB",
         "Cloudinary",
-      ],
-    },
-    {
-      title: "Personal Portfolio",
-      href: "https://nishas-portfolio.vercel.app/",
-      status: 'completed',
-      description:
-        "Developed a fully responsive personal portfolio using Next.js and Tailwind CSS. Designed to be mobile-friendly, the portfolio showcases projects, skills, and contact sections with clean UI and smooth user experience.",
-      technologies: [
-        "Next.js",
-        "Tailwind CSS",
-        "Client & Server Components",
-        "SEO Optimization",
       ],
     },
   ],
