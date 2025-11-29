@@ -1,4 +1,3 @@
-
 import { Github, Linkedin, X, Resume, Email } from "@/icons/Icons";
 import {
   SiJavascript,
@@ -20,7 +19,7 @@ import {
   SiAmazon,
   SiLinux,
   SiDrizzle,
-  SiShadcnui
+  SiShadcnui,
 } from "react-icons/si";
 import { LuCode, LuCpu, LuGlobe } from "react-icons/lu";
 
@@ -31,7 +30,8 @@ export const DATA = {
   location: "Ambala, Haryana, India",
   locationLink: "",
   description: "Full Stack Developer",
-  summary: "I'm Nisha, a 21-year-old Full Stack Developer from Haryana, India. I started my coding journey in mid-2024, pivoting from government exam preparation to the exciting world of technology. I'm passionate about building seamless, intuitive applications and constantly exploring new tech. I'm always eager to build, learn, and innovate!",
+  summary:
+    "I'm Nisha, a 21-year-old Full Stack Developer from Haryana, India. I started my coding journey in mid-2024, pivoting from government exam preparation to the exciting world of technology. I'm passionate about building seamless, intuitive applications and constantly exploring new tech. I'm always eager to build, learn, and innovate!",
   avatarUrl: "/image.png",
 
   skills: [
@@ -41,7 +41,7 @@ export const DATA = {
         { name: "Javascript", icon: SiJavascript, color: "#F7DF1E" },
         { name: "Typescript", icon: SiTypescript, color: "#3178C6" },
         { name: "C++", icon: SiCplusplus, color: "#00599C" },
-        { name: "MySQL", icon: SiMysql, color: "#4479A1" }
+        { name: "MySQL", icon: SiMysql, color: "#4479A1" },
       ],
     },
     {
@@ -86,7 +86,11 @@ export const DATA = {
     {
       category: "Relevant Coursework",
       items: [
-        { name: "Data Structures and Algorithms", icon: LuCode, color: "#ffffff" },
+        {
+          name: "Data Structures and Algorithms",
+          icon: LuCode,
+          color: "#ffffff",
+        },
         { name: "OOPS", icon: LuCpu, color: "#ffffff" },
       ],
     },
@@ -131,19 +135,21 @@ export const DATA = {
       location: "Remote",
       title: "Full Stack Developer (Contract)",
       logoUrl: "",
-      start: "July 2025",
+      start: "June 2025",
       end: "Present",
-      description: "As a Full Stack Developer, developed 3+ end-to-end client solutions with Next.js, React, Express, and PostgreSQL ensuring every feature aligned with real business needs. Handled UI, backend APIs, and databases to deliver polished and reliable solutions.",
+      description:
+        "As a Full Stack Developer, developed 3+ end-to-end client solutions with Next.js, React, Express, and PostgreSQL ensuring every feature aligned with real business needs. Handled UI, backend APIs, and databases to deliver polished and reliable solutions.",
     },
     {
       company: "Ezwiiz Frontier Systems",
       href: "",
-      location: "Hyderabad, Remote",
+      location: "Remote",
       title: "Full Stack Developer Intern",
       logoUrl: "",
-      start: "May 2025",
-      end: "July 2025",
-      description: "Aa an intern at EFS, built core modules for an HRMS Attendance System, lowering manual HR work by 40%. Delivered geolocation-driven auto-attendance and improved backend APIs for better and faster responses.",
+      start: "Jan 2025",
+      end: "May 2025",
+      description:
+        "Aa an intern at EFS, built core modules for an HRMS Attendance System, lowering manual HR work by 40%. Delivered geolocation-driven auto-attendance and improved backend APIs for better and faster responses.",
     },
   ],
   education: [
@@ -166,7 +172,7 @@ export const DATA = {
     {
       title: "PixEdit",
       href: "https://github.com/nissha29/PixEdit",
-      status: 'completed',
+      status: "completed",
       description:
         "An intuitive image editor designed for seamless photo enhancement and editing. It allows users to remove or change backgrounds, crop and resize images, apply a range of filters, add customizable text, blur specific parts of photos to mask sensitive details, and draw freely over images. Built-in undo and redo functionality streamline the editing workflow. Users can export their creations in popular formats including JPG, JPEG, PNG, and WEBP, making it versatile for diverse sharing and publishing needs.",
       technologies: [
@@ -176,13 +182,12 @@ export const DATA = {
         "Typescript",
         "Zustand",
         "Next-Auth",
-
       ],
     },
     {
       title: "Instant Chat",
       href: "https://instant-convo.vercel.app/",
-      status: 'completed',
+      status: "completed",
       description:
         "A lightweight, real-time chat application that allows users to create temporary chat rooms and communicate instantly without registration.",
       technologies: ["Websockets", "Redis", "Typescript", "Node.js", "React"],
@@ -190,7 +195,7 @@ export const DATA = {
     {
       title: "Personal Portfolio",
       href: "https://nishas-portfolio.vercel.app/",
-      status: 'completed',
+      status: "completed",
       description:
         "Developed a fully responsive personal portfolio using Next.js and Tailwind CSS. Designed to be mobile-friendly, the portfolio showcases projects, skills, and contact sections with clean UI and smooth user experience.",
       technologies: [
@@ -204,7 +209,7 @@ export const DATA = {
     {
       title: "Doodle Space",
       href: "https://www.doodlespace.xyz",
-      status: 'completed',
+      status: "completed",
       description:
         "A collaborative infinite canvas application for visual thinking and creative expression. Features real-time drawing tools, shape creation, text editing, and seamless pan navigation across an unlimited workspace.",
       technologies: [
@@ -215,13 +220,13 @@ export const DATA = {
         "Websockets",
         "Express.js",
         "Typescript",
-        "Zustand"
+        "Zustand",
       ],
     },
     {
       title: "Brain Cache",
       href: "https://brain-cache-extends.vercel.app/",
-      status: 'completed',
+      status: "completed",
       description:
         "Brain Cache is a powerful knowledge management platform that helps you store, organize, and retrieve important information effectively. It leverages advanced AI and vector database technologies to transform how you interact with your collected knowledge.",
       technologies: [
@@ -237,7 +242,7 @@ export const DATA = {
     {
       title: "Melodia",
       href: "https://melodia-music.netlify.app/",
-      status: 'completed',
+      status: "completed",
       description:
         "This is a simple music streaming application that allows users to explore, browse, and listen to various tracks, providing an intuitive and smooth user experience for music lovers.",
       technologies: [
