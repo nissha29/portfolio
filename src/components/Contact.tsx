@@ -58,7 +58,7 @@ export default function Contact() {
     <div className="pt-8 mt-8">
       <div className="text-center mb-8">
         <div className="flex justify-center mb-4">
-          <SectionHeading>Let's Connect</SectionHeading>
+          <SectionHeading>Let&apos;s Connect</SectionHeading>
         </div>
         <p className="text-neutral-400 text-base md:text-lg">
           Want to chat? Send me a message on my{" "}
